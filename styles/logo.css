@@ -263,3 +263,38 @@ form{
 form button{
     margin-top: auto;
 }
+/* footer */
+footer{
+    margin-top: 104px;
+    margin-bottom:103px ;
+    margin-right: 454px;
+    margin-left:455px;
+    
+}
+ .footer-heading{
+    font-size: 100px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+.footer{
+    text-align: center;
+}
+footer p{
+color: rgba(137, 135, 161, 1);
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+}
+.links a{
+text-decoration: none;
+color: rgba(137, 135, 161, 1);
+}
+.links{
+    justify-content: space-between;
+}
+.links a:hover{
+    color: aqua;
+}
